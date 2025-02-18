@@ -2,7 +2,16 @@ package org.example;
 
 public class PiramidNumbersInverted {
 
+/*
+print the below piramid inverted
 
+123456789
+ 1234567
+  12345
+   123
+    1
+
+ */
     public static void main(String[] args) {
         int n = 5; // Tamaño de la pirámide
         int maxNum = 2 * n - 1; // Cantidad máxima de números en la primera fila
